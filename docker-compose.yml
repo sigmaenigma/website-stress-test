@@ -1,0 +1,8 @@
+services:
+  website-stress-test:
+    container_name: website-stress-test
+    image: website-stress-test
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: python app.py
