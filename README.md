@@ -68,7 +68,7 @@ After the application completes, it will generate a report with the following in
 ### Sample Report
 ```bash
 2024-10-04 14:38:53 --- Report ---
-2024-10-04 14:38:53 Website: https://tiempo.llc
+2024-10-04 14:38:53 Website: https://<your-website>
 2024-10-04 14:38:53 Number of Requests: 100
 2024-10-04 14:38:53 Average Response Time: 9.9726 seconds
 ```
@@ -115,7 +115,7 @@ class AsyncRequester:
 
 if __name__ == "__main__":
     print(f'Running... ')
-    url = 'https://tiempo.llc'
+    url = 'https://<your-website>'
     num_requests = 100  # Number of requests to send
     delay = 0  # Delay between requests in seconds
 
