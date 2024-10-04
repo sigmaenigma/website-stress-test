@@ -65,6 +65,14 @@ After the application completes, it will generate a report with the following in
 - Number of requests sent
 - Average response time
 
+### Sample Report
+```bash
+2024-10-04 14:38:53 --- Report ---
+2024-10-04 14:38:53 Website: https://tiempo.llc
+2024-10-04 14:38:53 Number of Requests: 100
+2024-10-04 14:38:53 Average Response Time: 9.9726 seconds
+```
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
