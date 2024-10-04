@@ -38,7 +38,7 @@ class AsyncRequester:
 
 if __name__ == "__main__":
     print(f'Running... ')
-    url = 'https://tiempo.llc'
+    url = 'https://<your-website>'
     num_requests = 100  # Number of requests to send
     delay = 0  # Delay between requests in seconds
 
